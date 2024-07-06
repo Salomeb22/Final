@@ -1,0 +1,169 @@
+/* header styles */
+.header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: sticky;
+}
+.header-div {
+    display: flex;
+    justify-content: space-around;
+}
+.bar {
+    display: none;
+}
+.list1 {
+    display: flex;
+}
+.distance {
+    margin-right: 35px;
+}
+.list2 {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.fa-solid {
+    margin-right: 30px;
+}
+
+/* section 1 styles */
+.img {
+   max-width: 100%;
+    width: 100%;
+}
+.img-div {
+    height: 621px;
+}
+/* section 2 styles */
+.cont-div{
+    width: 100%;
+    display: flex;
+}
+.text3 {
+    text-align: center;
+    width: 90%
+}
+.imgdiv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* section 3 styles */
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.title {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.text2 {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+/* section 4 styles */
+.cont2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.height {
+    height: 500px;
+}
+.text4 {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    font-size: 38px;
+}
+.size {
+    font-size: 40px;
+}
+/* section 5 styles */
+.section5 {
+    margin: 30px 0px; 
+}
+.leftcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-el {
+    width: 100%;
+}
+.input-el {
+    width: 40%;
+    height: 30px;
+    margin: 15px 0px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: lightslategray;
+}
+.label-el {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.note {
+    height: 70px;
+}
+.text5 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.send1 {
+    background-color: lightslategray;
+    border-color: lightslategray;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titles {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+/* footer styles */
+.footer {
+    background-color: lightgray;
+}
+.leftdiv1 {
+    padding: 30px 0px;
+    text-align: center;
+}
+.footer-text {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.foottext {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px; 
+    margin-top: 15px; 
+}
