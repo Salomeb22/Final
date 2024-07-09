@@ -17,21 +17,22 @@
     <!-- started header -->
     <header class="header">
         <div class="header-div">
-            <div class="bar">
-                <i class="fa-regular fa-bars" style="color: #2f6f3a;"></i>
+            <div class="bar" id="burgerBar">
+                <i class="fa-solid fa-bars" style="color: #2f6f3a;"></i>
             </div>
             <div class="list">
-                <ul class="list1">
-                    <li class="list2 distance"><a href="#">About product</a></li>
-                    <li class="list2 distance"><a href="#">About Us</a></li>
-                    <li class="list2 distance"><a href="#">Services</a></li>
-                    <li class="list2 distance"><a href="#">Feedback</a></li>
-                    <li class="list2"><a href="#">Contact Us</a></li>
-                </ul>
+                <nav class="navigation" id="navBar">
+                    <ul class="list1">
+                        <li class="list2 distance"><a href="#">About product</a></li>
+                        <li class="list2 distance"><a href="#">About Us</a></li>
+                        <li class="list2 distance"><a href="#">Services</a></li>
+                        <li class="list2 distance"><a href="#">Feedback</a></li>
+                        <li class="list2"><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
             </div>
             <div class="icon">
                 <i class="fa-solid fa-user" style="color: #2f6f3a;"></i>
-                <i class="fa-brands fa-shopify" style="color: #2f6f3a;"></i>
                 </div>
         </div>
     </header>
@@ -40,7 +41,7 @@
         <!-- section 1 -->
          <section>
            <div class="img-div">
-            <img class="img" src="Images/IQOS_ILUMA-Mid_FirstSteps_CXXX_Hero_Video_Image_Variant3_Global_Desktop_2x.webp" alt="IQOS">
+            <img class="img center" src="Images/IQOS_ILUMA-Mid_FirstSteps_CXXX_Hero_Video_Image_Variant3_Global_Desktop_2x.webp" alt="IQOS">
            </div>
          </section>
         <!-- section 2 -->
@@ -68,11 +69,15 @@
          <section>
             <div class="container">
                 <div class="aboutUs">
-                    <H2 class="title">ABOUT US</H2>
+                    <H2 class="title mouse">ABOUT US</H2>
                     <p class="text2">IQOS belongs to Philip Morris International (PMI), one of the world’s leading tobacco companies. We invested over 3 billion dollars and spent almost 10 years improving IQOS design, science and technology. According to our statistics there are already over 10 million IQOS users worldwide. We believe in science. We believe it can change the lives of millions of adult smokers, who would otherwise continue to smoke. To this effect, we recruited scientists to work on an important idea: developing less harmful products that cigarette smokers can switch to alternatives if they don’t quit. Hundreds of scientists and engineers at PMI’s global Research and Development centres in Switzerland and Singapore have developed and evaluated IQOS, an innovative electronic device that heats and not burns tobacco. It produces a tobacco vapour that delivers tobacco taste and nicotine.</p>
                 </div>
             </div>
          </section>
+         <!-- 480 image -->
+          <div class="lastblock">
+            <img class="img" src="Images/lastblock.webp" alt="iluma">
+          </div>
          <!-- section 4 -->
           <section>
             <div class="cont2">
@@ -88,7 +93,7 @@
                     </div>
                 </div>
                 <div class="left-div">
-                    <img class="img height" src="Images/groupiluma.jpg" alt="photo">
+                    <img class="img height block" src="Images/groupiluma.jpg" alt="photo">
                 </div>
             </div>
           </section>
@@ -104,19 +109,19 @@
         <div class="big-cont">
        <form class="form-el" action="#">
         <div class="leftcont">
-            <label class="label-el" for="fname">First Name</label>
+            <label class="label-el" for="firstname">First Name</label>
             <input class="input-el" type="text" name="fname" id="firstname">
     </div>
         <div class="leftcont">
-            <label class="label-el" for="lname">Last Name</label>
+            <label class="label-el" for="lastname">Last Name</label>
             <input class="input-el" type="text" name="lname" id="lastname">
     </div>
         <div class="leftcont">
-            <label class="label-el" for="note">Note</label>
+            <label class="label-el" for="fbacknote">Note</label>
             <input class="input-el note" type="text" name="note" id="fbacknote">
     </div>
         <div class="input">
-            <input class="send1" type="submit" value="Send">
+             <button id="send1">Send</button>
     </div>
        </form>
     </div>
@@ -134,5 +139,6 @@
             <div class="rightdiv1"></div>
         </div>
       </footer>
+      <script src="Scripts/script.js"></script>
 </body>
 </html>
